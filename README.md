@@ -1,6 +1,6 @@
 # JWT Auth Demo — Spring Boot 3 + Spring Security 6
 
-A complete login + JWT flow for interview practice. It covers register, login, protected APIs, role-based access (USER/ADMIN), refresh tokens, and clean 401/403 errors.
+A complete login + JWT flow for  practice. It covers register, login, protected APIs, role-based access (USER/ADMIN), refresh tokens, and clean 401/403 errors.
 
 **Stack:** Java 17+, Spring Boot 3.3, Spring Security 6, JPA, H2 (in-memory; swap to MySQL in `pom.xml` and `application.properties`), JJWT 0.12.
 
@@ -13,7 +13,7 @@ mvn test                 # runs AuthFlowTest (the whole flow end to end)
 
 Default admin (seeded on startup): `admin@demo.com` / `admin123`
 
-## Project structure (build it in this order in the interview)
+## Project structure (build it in this order in the )
 
 ```
 entity/      User, Role                    1. Data model
@@ -62,7 +62,7 @@ curl -X POST localhost:8080/api/auth/refresh -H "Content-Type: application/json"
   -d '{"refreshToken":"<refreshToken>"}'
 ```
 
-Paste any token into https://jwt.io to show the interviewer the header, payload and signature.
+Paste any token into https://jwt.io to show the er the header, payload and signature.
 
 ## The flow (explain it like this)
 
